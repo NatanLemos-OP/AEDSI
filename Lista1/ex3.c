@@ -1,14 +1,29 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-    int calculofuncao (int x) {
-        
+int y;
+int x;
+
+    int funcaoY(int x) {
+        int f,h,g;
+        h=(x*x) - 16;
+        if(h>=0){
+            f=h;
+        } else{
+            f=1;
+        }
+        if(f==0){
+            g=(x*x)+16;
+        }
+        if(f>0){
+            g=0;
+        }
+        return f+g;
     }
+
     int main () {
 
-        int x;
-        scanf("%d", &a);
-        scanf("%d", &b);
-        int c;
-        c = somadeinteiros(a,b);
+        printf("Digite o valor de X:");
+        scanf("%d", &x);
+        y=funcaoY(x);
+        printf("%d", y);
     }
