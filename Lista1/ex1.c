@@ -1,13 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-    int soma () {
-        int a=10;
-        int b=20;
-        int c = a+b;
+    int soma (int a, int b) {
+        int c = (a+b)/2;
         printf("%d", c);
     }
+
+
+
     int main () {
-        printf("Natan Lemos\n");
-        int c = soma();
+
+        int a, b;
+        scanf("%d", &a);
+        scanf("%d", &b);
+        int c;
+        c = soma(a,b);
     }
