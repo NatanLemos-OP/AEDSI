@@ -19,9 +19,7 @@ int x;
         }
         return f+g;
     }
-
     int main () {
-
         printf("Digite o valor de X:");
         scanf("%d", &x);
         y=funcaoY(x);

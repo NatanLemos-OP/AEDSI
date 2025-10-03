@@ -1,23 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 
-int sr(int m,int w){
-return (m+w);
-}
+    int comretorno (int M, int W) {
+        return (M+W);
+    }
 
-int cr(int m, int w ){
-int c=m+w;
-printf("%d",c);
-}
+    int semretorno (int M, int W) {
+        int c;
+        c = M+W;
+        printf("\n%d", c);
+    }
 
-
-int main(){
-    int m,w;
-    int d;
-scanf("%d",&m);
-scanf("%d",&w);
-d=cr(m,w);
-printf("%d", sr(m,w));
-
-}
+    int main () {
+        int M, W;
+        int c;
+        scanf("%d", &M);
+        scanf("%d", &W);
+        printf("%d", comretorno(M,W));
+        c = semretorno(M,W);
+    }
