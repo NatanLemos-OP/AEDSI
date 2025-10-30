@@ -21,4 +21,5 @@
         }
 
         divisaovetor(vetA);
+        divisaovetor(vetA);
     }
